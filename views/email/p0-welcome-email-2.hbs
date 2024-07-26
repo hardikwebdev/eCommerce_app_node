@@ -1,0 +1,82 @@
+<div width="100%"
+    style="background: #f8f8f8; padding: 0px 0px; line-height:28px; height:100%;  width: 100%; color: #514d6a;">
+    <div style="max-width: 700px; margin: 0px auto; font-size: 14px">
+        <div style="padding: 40px; background: #fff;">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: center;">
+                <tbody>
+                    <tr>
+                        <td class="content-block" style="vertical-align: top;text-align: center;" align="center">
+                            <a href={{storeUrl}} class="cursor-pointer">
+                                <img src={{ecommerceLogo}} alt="" height="55" style="border:none">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content-block">
+                            <div style="font-size: small; font-family:arial;font-weight:100;line-height: 1.5em;">
+                                <span style="font-weight:500;color: #18191C">Hello
+                                    {{fullName}},</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content-block" style="padding-top: 0px;">
+                            <div style="font-size:small;font-family:arial;font-weight:500;line-height: 1.3rem;">
+                                <span style="font-weight:500;color: #18191C">Thanks for signing up for <a
+                                        href={{storeUrl}}
+                                        style="color: #D0893B; font-weight:700; text-decoration: none;"
+                                        class="cursor-pointer">E-Commerce
+                                        Your Closet! </a>We're so glad you've joined us on our circular fashion journey.
+                                    <br><br>E-Commerce is here to help you gain access to 100s of styles without the
+                                    economic and environmental burden and enable you to make income off the clothes in
+                                    your closet without losing ownership.<br><br>
+                                    <span style="font-weight:500; color: #18191C">Use code <span style="color: #D0893B; font-weight:700; text-decoration: none;"
+                                        class="cursor-pointer">Firstrental15</span> to receive 15%
+                                        off your first rental</span>
+                                    <div style="font-weight:500;color: #18191C"><a href={{storeUrl}}
+                                            class="cursor-pointer"
+                                            style="display: inline-block; padding: 9px 20px; margin: 20px 0px 30px; font-size: 15px;font-weight:700; color: #fbf7f3; 
+                                                                            background: #D0893B; border-radius: 5px; text-decoration:none;">Start
+                                            Renting</a>
+                                    </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content-block">
+
+                            <div class="image-flex" style="display: flex; flex-wrap: wrap;">
+                                {{#if featuredRentals}}
+                                {{#each featuredRentals}}
+                                <div style="max-width: 25%; padding: 10px;" class="box">
+                                    <figure style="width: 100%; ">
+                                        <a href="{{../storeUrl}}/product-details/ecommerce_jhf_{{id}}">
+                                            <img src={{image_url}} alt="" style="width: 100%; height: auto; object-fit:cover;max-width: 125px; height: 159px;">
+                                        </a>
+                                    </figure>
+                                    <span style="text-align: center; font-weight:500; color: #18191C; font-size: 13px; display:inline-block;line-height:1.5;">{{title}}</span>
+                                </div>
+                                {{/each}}
+                                {{/if}}
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content-block"
+                            style="border-top:1px solid #f6f6f6; padding-top:20px;padding-bottom:10px; color:#777">
+
+
+                            <span style="font-weight:500; color: #18191C">Visit our <a href="{{storeUrl}}/faq"
+                                    style="color: #D0893B; font-weight:700; text-decoration:none;">FAQ page</a> or if
+                                you
+                                have any questions email </span>
+                            <a href="mailto:{{mailTo}}"
+                                style="color: #D0893B; font-weight:700; text-decoration:none;">info@ecommerce.co</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

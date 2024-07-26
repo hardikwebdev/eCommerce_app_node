@@ -1,0 +1,12 @@
+{
+    "name": "E-Commerce REST API Document",
+    "version": "1.0.0",
+    "description": "Restful API list for Web request",
+    "title": "E-Commerce REST API Document",
+    "url" : "localhost:3010",
+    "order" : [
+        "Auth(v1-api)",
+        "General(v1-api)",
+        "Users(v1-api)"
+    ]
+}
