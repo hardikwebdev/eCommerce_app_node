@@ -11,7 +11,7 @@ Welcome to **E-Commerce Node**! This Node.js application leverages **Express.js*
 Before you start, ensure you have the following installed:
 
 - **Node.js** (v14.x or higher)
-- **npm** (v6.x or higher) or **yarn** (v1.x or higher)
+- **npm** (v6.x or higher)
 - **MySQL** (v8.x or higher)
 
 ### 1. Clone the Repository
